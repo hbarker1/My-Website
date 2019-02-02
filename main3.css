@@ -1,0 +1,141 @@
+* {
+    border: 2px solid white;
+    margin: 5px;
+    padding: 3px;
+    color: white;
+    
+}
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    border: none;
+    }
+
+
+body {
+    height: 100vh;
+    background-color: lightgray;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+    }
+
+
+
+    .flex-container {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(148, 86, 86);
+        
+      
+        
+    }
+
+
+.title {
+    display: flex;
+    font-size: 30px;
+    
+   
+}
+
+.nav-items {
+    display: flex;
+    list-style-type: none;
+    padding: 0px 10px;
+    
+    
+}
+
+
+.nav-item > a {
+    text-decoration: none;
+    
+
+
+}
+
+
+
+
+
+
+
+
+.container {
+    display: flex;
+    padding: 10px;
+    background-color: seashell;
+   
+}
+
+
+
+
+.mainarticle {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 75%;
+    background-color: rgb(211, 160, 160);
+    color: white;
+    
+    
+ 
+
+
+}
+
+
+
+
+
+
+
+.sidebar {
+    display: flex;
+    justify-content: flex-start;
+    width: 25%;
+    height: 200px;
+    background-color: lightgrey;
+    color: gray;
+
+
+}
+
+
+
+
+.nav-itemsbelow {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    background-color: rgb(148, 86, 86);;
+    
+}
+
+.nav-item2 > a {
+    text-decoration: none;
+    
+    
+
+
+}
+
+.nav-item2 {
+    padding: 0px 10px;
+    display: flex;
+    justify-content: flex-start;
+    
+    
+
+    
+
+}
+
+.copyright {
+  
+}
